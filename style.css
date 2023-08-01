@@ -188,6 +188,13 @@ nav button{
     font-size: 20px;
 }
 
+/* Footer Section*/
+.footer{
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    transition: .5s;
+}
 .footer-form{
     display: flex;
     justify-content: center;
@@ -226,4 +233,18 @@ nav button{
 }
 .footer-form>.email-signup>button:hover{
     opacity: 0.8;
+}
+
+.footer-links{
+    list-style: none;
+    color:#fff;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    padding-top: 30px;
+    
+}
+.footer-links>li{
+    text-decoration: underline;
+    padding-bottom: 10px;
 }
